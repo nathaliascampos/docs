@@ -30,6 +30,15 @@ sudo apt install -y libssl-dev libsasl2-dev
 
 Para outros ambientes, consulte o github do pacote: https://github.com/jeroen/mongolite
 
+##### Pacote *pkgdown* - Dependência para o devtools
+
+Em ambientes **Debian** ou **Ubuntu**, rode os comandos no terminal: 
+
+```
+sudo apt update
+sudo apt install libfontconfig1-dev libharfbuzz-dev libfribidi-dev
+```
+
 ##### Pacote *rJava*
 
 Em ambientes **Ubuntu**, rode os comandos no terminal: 
